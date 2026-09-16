@@ -54,7 +54,7 @@ class Robot {
 
     public:
     // Setters
-    void setName (string b) {
+    void setName (string n) {
         name = n;
     }
     void setBatteryLevel(int level) {
@@ -68,7 +68,7 @@ class Robot {
         return batteryLevel;
     }
     void printStatus() {
-        cout << name << " has " <<
+        cout << name << " has " << batteryLevel << "% battery." << endl;
     }
 };
 
@@ -79,5 +79,8 @@ int main() {
     // Access via accessor methods, using ->
     myRobot->setName("R2D2");
     myRobot->setBatteryLevel(85);
-
+    cout << myRobot->getName() << endl;
+    myRobot->printStatus();
+    delete myRobot; // free the head memory
+    return 0;
 }
