@@ -85,6 +85,7 @@ class SLL {
         // }
     }
 
-    void deleteNode(Node* deleteNode);
+    void deleteNode(Node* deleteNode); // 9.25.cpp.
+
 };
 
