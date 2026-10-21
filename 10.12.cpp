@@ -107,4 +107,3 @@ cur->next is nullptr, so line 2 crashes
 // What is the height of the tree? 2
 // What is the inorder traversal of the tree? 20, 30, 40, 50, 60, 70, 80
 // What is the preorder traversal of the tree? 50, 30, 20, 40, 70, 60, 80
-

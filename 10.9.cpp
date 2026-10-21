@@ -33,4 +33,5 @@ struct Node {
     int key;
     Node* parent = nullptr;
     Node* leftChild = nullptr;
-    Node* rightChild = nullptr;};
+    Node* rightChild = nullptr;
+};
